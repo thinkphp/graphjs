@@ -1,4 +1,4 @@
-#canvas {border: 1px solid #fff}
+#canvas {border-bottom: 1px solid #fff}
 body {
       margin: 10px;
       font-family: Helvetica, Arial;
@@ -6,11 +6,6 @@ body {
     a {
       color: navy;
     }
-    .outer {
-      padding: 10px 10px 0 10px;
-      background: #eee;
-    }
-
 
 input.gsc-input {
       border-color: #BCCDF0;

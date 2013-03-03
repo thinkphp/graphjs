@@ -62,13 +62,13 @@ function _attach() {
 //returns the left boundary limit inf
 function minX() {
 
-    return -11
+    return -10
 };
 
 //returns the right boundary limit sup
 function plusX() {
 
-    return 11
+    return 10
 };
 
 //returns the bottom boundary limit inf
@@ -95,7 +95,7 @@ function Y( y ) {
    
 function drawAxes() {
  
-    ctx.strokeColor = "rgb(10,10,10)"
+    ctx.strokeStyle = "rgb(10,10,10)"
 
     ctx.beginPath()
     ctx.moveTo(WIDTH/2,0)
@@ -116,7 +116,6 @@ function drawAxes() {
     ctx.moveTo(WIDTH/2,HEIGHT/2) 
     ctx.lineTo(WIDTH,HEIGHT/2) 
     ctx.stroke()      
-
 }
 
 function render(f,color) {
@@ -140,7 +139,7 @@ function render(f,color) {
              else
                         ctx.lineTo(X(x), Y(y))
     }
-
+ 
     ctx.stroke()
 }
 
